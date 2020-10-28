@@ -65,6 +65,10 @@ PRODUCT_COPY_FILES += \
 # Enable one-handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
+    
+# Default and google apps privapp permissions
+PRODUCT_COPY_FILES += \
+    vendor/orgasmic/prebuilt/google/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \

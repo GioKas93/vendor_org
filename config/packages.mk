@@ -53,3 +53,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ProtonWallpaperStub \
 
+# StichImage
+#PRODUCT_PACKAGES += \
+    StitchImage
+
+PRODUCT_PACKAGES += \
+    Flipendo
