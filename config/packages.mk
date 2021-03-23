@@ -6,8 +6,8 @@ PRODUCT_PACKAGES += \
     QuickAccessWallet \
     StitchImage \
     wellbeingconf \
-    googleconf
-
+    googleconf \
+    Flipendo
 
 # Extra tools in Orgasmic
 PRODUCT_PACKAGES += \
