@@ -9,6 +9,16 @@ PRODUCT_PACKAGES += \
     googleconf \
     Flipendo
 
+#Turbo
+ifneq ($(WITH_GAPPS), true)
+PRODUCT_PACKAGES += \
+     Turbo
+
+PRODUCT_COPY_FILES += \
+    vendor/orgasmic/prebuilt/common/etc/permissions/privapp-permissions-turbo.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-turbo.xml \
+    vendor/orgasmic/prebuilt/common/etc/turbo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/turbo.xml
+endif
+
 # Extra tools in Orgasmic
 PRODUCT_PACKAGES += \
     7z \
