@@ -58,4 +58,5 @@ PRODUCT_PACKAGES += \
     StitchImage
 
 PRODUCT_PACKAGES += \
-    Flipendo
+    Flipendo \
+    Turbo
