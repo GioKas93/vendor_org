@@ -116,7 +116,8 @@ PRODUCT_PACKAGES += \
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
+    SystemUI \
+    Settings
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/orgasmic/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/orgasmic/overlay/common
